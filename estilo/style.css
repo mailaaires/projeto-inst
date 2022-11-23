@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+ 
+:root{
+  --cor1:#e960d0;
+  --cor2:#F558A2;
+  --cor3:#B629DB;
+
+  --fonte-padrao:'Nunito', sans-serif; 
+  --fonte-titulo: 'Chakra Petch', sans-serif;
+  --fonte-paragrafo:'Mukta', sans-serif;
+
+}
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+body{
+  background-color: #926e9cbd;
+ 
+}
+  header{
+   background-color: rgba(46, 9, 81, 0.594);
+   padding-top: 50px;
+   min-height: 50px;
+   
+  
+  }
+  header > h1{
+ color: white;
+ font-family: var(--fonte-titulo);
+ text-align: center;
+  }
+
+  nav{
+  background-color:;
+    display: flex;
+    padding: 5px;
+  font-family: var(--fonte-titulo);
+ box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.359);
+  }
+nav > a {
+color: rgb(255, 240, 240);
+padding: 10px;
+border-radius: 10px;
+text-decoration: none;
+font-weight: bold;
+}
+ nav>a:hover{
+  background-color: #cea0b54f;
+  color: rgba(0, 0, 0, 0.829);
+ }
+
+  main{ 
+    background-color: white;
+    min-width: 0px;
+    max-width:1000px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.397);
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    
+  }
+  main p{
+   text-align: justify;
+   font-family: var(--fonte-paragrafo);
+  text-indent: 6px;
+  line-height: 2em;
+  padding: 3px;
+  
+}
+main h1{
+font-family: var(--fonte-titulo);
+padding: 6px;
+}
+
+main strong{
+color: var(--cor3);
+padding: 6px;
+}
+main img{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+aside{
+  background-color: rgba(116, 80, 129, 0.384);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.089);
+  
+}
+aside ul{
+  list-style-position: inside;
+  margin-top: 10px;
+}
+aside a{
+  text-decoration: none;
+  color: blue;
+}
+aside a:hover{
+  text-decoration: underline;
+  background-color: rgba(238, 238, 238, 0.301);
+  border-radius: 5px;
+  padding: 1px;
+}
+aside>h3{
+  background-color: rgba(88, 22, 153, 0.541);
+  color: white;
+  padding: 8px;
+  margin: -10px -10px 0px -10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+div.video{
+  background-color: rgba(65, 23, 109, 0.781);
+  margin: 0px -20px 20px -20px ;;
+  padding: 5px;
+  padding-bottom: 50%;
+  position: relative;
+
+}
+
+div.video>iframe{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 88%;
+  height: 88%;
+}
+
+footer a{
+  color: rgba(68, 26, 68, 0.863);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+  footer{
+    background-color: #99319946;
+    margin: 0px 5px 70px 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+  }
+
+ 
